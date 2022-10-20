@@ -68,16 +68,15 @@ body {
 
 
 .main {
-  background-color: aquamarine;
   display: flex;
   align-items: center;
   flex-flow: row wrap;
   text-align: justify;
   margin: 0 auto;
   width: 80vw;
-  height: 0vh;
+  height: 85vh;
   grid-template-columns: repeat(2,1fr);
-  gap: 2em;
+  gap: 10%;
 }
 
 h1 {
@@ -123,11 +122,14 @@ h1 {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   width: 100vw;
+  height: 100vh;
   align-items: center;
+  overflow: hidden;
 }
 
 .about img {
   width: 100%;
+  height: 100%;
   grid-column: 1/5;
 }
 
